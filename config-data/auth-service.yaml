@@ -8,3 +8,11 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  admin-paths:
+    paths:
+      - uri: "/user"
+        method: "POST"
+      - uri: "/user/savecar/{1}[1-9]+[0-9]*"
+        method: "POST"
+      - uri: "/user/savebike/{1}[1-9]+[0-9]*"
+        method: "POST"
