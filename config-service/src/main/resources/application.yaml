@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: vault
           uri: https://github.com/cavanosa/microservices-tutorial
           search-paths: config-data
   application:
