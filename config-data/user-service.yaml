@@ -17,4 +17,4 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mariadb://localhost:3306/booking?createDatabaseIfNotExist=true
+    url: jdbc:mariadb://localhost:3306/microuser?createDatabaseIfNotExist=true
